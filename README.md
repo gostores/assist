@@ -1,4 +1,4 @@
-assists
+assist
 ====
 
 ## What is Assists?
@@ -44,25 +44,25 @@ the code for a complete set.
 
 ### Example ‘ToString’:
 
-    assists.ToString("mayonegg")         // "mayonegg"
-    assists.ToString(8)                  // "8"
-    assists.ToString(8.31)               // "8.31"
-    assists.ToString([]byte("one time")) // "one time"
-    assists.ToString(nil)                // ""
+    assist.ToString("mayonegg")         // "mayonegg"
+    assist.ToString(8)                  // "8"
+    assist.ToString(8.31)               // "8.31"
+    assist.ToString([]byte("one time")) // "one time"
+    assist.ToString(nil)                // ""
 
 	var foo interface{} = "one more time"
-    assists.ToString(foo)                // "one more time"
+    assist.ToString(foo)                // "one more time"
 
 
 ### Example ‘ToInt’:
 
-    assists.ToInt(8)                  // 8
-    assists.ToInt(8.31)               // 8
-    assists.ToInt("8")                // 8
-    assists.ToInt(true)               // 1
-    assists.ToInt(false)              // 0
+    assist.ToInt(8)                  // 8
+    assist.ToInt(8.31)               // 8
+    assist.ToInt("8")                // 8
+    assist.ToInt(true)               // 1
+    assist.ToInt(false)              // 0
 
 	var eight interface{} = 8
-    assists.ToInt(eight)              // 8
-    assists.ToInt(nil)                // 0
+    assist.ToInt(eight)              // 8
+    assist.ToInt(nil)                // 0
 

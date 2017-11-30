@@ -1,4 +1,4 @@
-package assists
+package assist
 
 import (
 	"fmt"
